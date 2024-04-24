@@ -1,0 +1,30 @@
+.searchBar {
+  padding: 15px 15px 15px 15px;
+  left: 530px;
+  position: absolute;
+  right: 530px;
+  top: 475px;
+  gap: 10px;
+  border-color: white;
+  border-radius: 50px 50px 50px 50px;
+  opacity: 0px;
+  background: transparent;
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .searchBar {
+    left: 5vw;
+    right: 5vw;
+    top: 40vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchBar {
+    left: 2vw;
+    right: 2vw;
+    top: 50vw;
+    padding: 2vw; 
+  }
+}

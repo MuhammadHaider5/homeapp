@@ -1,0 +1,74 @@
+.background{
+    width: 1440px;
+    height: 693px;
+    gap: 0px;
+    border-radius: 0px 0px 30px 30px;
+    opacity: 0px;
+    background: #0000;
+}
+.navBar {
+  padding: 1px 1px 1px 1px;
+  left: 30px;
+  position: fixed;
+  right: 30px;
+  top: 25px;
+  gap: 10px;
+  border-radius: 50px 50px 50px 50px;
+  opacity: 0px;
+  z-index: 1000;
+}
+.gradientButton {
+  background-image: linear-gradient(
+    to right,
+    #24c6dc 0%,
+    #514a9d 51%,
+    #24c6dc 100%
+  );
+  margin: 10px;
+  padding: 8px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    top: 5vw;
+  }
+  
+  .gradientButton {
+    padding: 3vw 6vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .navBar {
+    top: 10vw;
+  }
+  
+  .gradientButton {
+    padding: 4vw 8vw;
+  }
+  
+  img {
+    width: 20vw;
+    height: 20vw;
+  }
+}

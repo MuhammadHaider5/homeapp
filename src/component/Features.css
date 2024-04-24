@@ -1,0 +1,49 @@
+.features {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px; 
+    background-color: #2a2f36;
+    color: aliceblue;
+    border-radius: 2vw 2vw 0 0;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw; 
+    margin-top: 3vw; 
+    margin-bottom: 20px;
+  }
+  
+  .cards img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; 
+  }
+  
+  @media (max-width: 768px) {
+    .features {
+      padding-top: 8vw;
+      border-radius: 3vw 3vw 0 0;
+    }
+  
+    .cards {
+      gap: 8vw;
+      margin-top: 5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .features {
+      padding-top: 10vw;
+      border-radius: 4vw 4vw 0 0;
+    }
+  
+    .cards {
+      gap: 10vw;
+      margin-top: 7vw;
+    }
+  }
+  
